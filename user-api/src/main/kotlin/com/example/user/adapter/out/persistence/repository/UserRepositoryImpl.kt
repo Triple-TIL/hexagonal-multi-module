@@ -1,11 +1,10 @@
-package com.example.user.adapter.out.persistence
+package com.example.user.adapter.out.persistence.repository
 
-import com.example.user.domain.entity.UserEntity
+import com.example.user.adapter.out.persistence.entity.UserEntity
 import com.example.user.global.config.singleOrNullQuery
 import com.linecorp.kotlinjdsl.querydsl.expression.column
 import com.linecorp.kotlinjdsl.spring.data.SpringDataQueryFactory
 import com.linecorp.kotlinjdsl.spring.data.listQuery
-import com.linecorp.kotlinjdsl.spring.data.singleQuery
 import org.springframework.stereotype.Repository
 
 @Repository

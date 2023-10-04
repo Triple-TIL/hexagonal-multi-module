@@ -1,6 +1,6 @@
 package com.example.user.application.port.`in`
 
-import com.example.user.domain.vo.User
+import com.example.user.domain.User
 
 interface FindUserUseCase {
 

@@ -1,8 +1,8 @@
 package com.example.user.application.port.out
 
-import com.example.user.domain.entity.UserEntity
+import com.example.user.domain.User
 
 interface SaveUserPort {
 
-    fun save(user: UserEntity): UserEntity
+    fun save(user: User): User
 }

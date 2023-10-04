@@ -1,10 +1,10 @@
 package com.example.user.application.port.out
 
-import com.example.user.domain.entity.UserEntity
+import com.example.user.domain.User
 
 interface FindUserPort {
 
-    fun findAll(): List<UserEntity>
+    fun findAll(): List<User>
 
-    fun findByName(name: String): UserEntity?
+    fun findByName(name: String): User?
 }

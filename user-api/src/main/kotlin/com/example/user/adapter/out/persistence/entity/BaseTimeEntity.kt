@@ -1,4 +1,4 @@
-package com.example.user.domain.entity
+package com.example.user.adapter.out.persistence.entity
 
 import jakarta.persistence.Column
 import jakarta.persistence.EntityListeners
